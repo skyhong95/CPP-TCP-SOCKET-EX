@@ -11,6 +11,7 @@ void ShowErrorMessage(string message) {
 } // 에러메시지 함수
 
 int main() {
+	cout << "TCP ECHO SERVER" << endl;
 	WSADATA wsaData; // 윈속 초기화 정보 구조체
 	SOCKET serverSocket, clientSocket; 
 	SOCKADDR_IN serverAddress, clientAddress;
